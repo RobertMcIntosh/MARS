@@ -1,0 +1,365 @@
+<style type="text/css">
+/*
+Theme Name: Artificer
+Description: MARS custom website
+Author: Robert McIntosh
+Version: 0.0.1
+Template: Artificer
+
+branding colors & fonts
+header font: Nueva Std
+menu, title font:ArchitectsDaughter.ttf
+menu, title font color 4e4e4d
+logo blue 2b2b9d
+	light blue 5353fc
+logo yellow e1b11f
+	light yellow fae3a0
+							 f0d47e
+
+body background #faf8e1
+nav menu #c0d1fc
+slideshow active tab #f5d372
+slideshow preview tab #eaf3b5
+widget title background #eaf3b5
+widget background #eaf3b5
+search background #faf8e1
+*/
+
+
+/*--------------begin custom css---------------*/
+html
+{
+	background: url("images/leather.png"), url("images/noise.png") !important;
+	/*background-color:rgb(230, 225, 221) !important;*/
+}
+
+body
+{
+	max-width: 1400px;
+	min-width: 505px;
+	margin: auto;
+	background: url("images/leather.png"), url("images/noise.png") !important;
+	/*background-color:rgb(230, 225, 221) !important;*/
+}
+
+#wrapper
+{
+	padding: 0;
+}
+
+#header
+{
+	padding-top: 0em !important;
+}
+
+#header a.cart-button, #header a.checkout 
+{
+	font-size:.7em !important;
+	padding: 0.0em 0.4em 0.0em 0.4em;
+	float:right;
+}
+
+#header a.cart-button .lozenge, 
+#header a.checkout .lozenge, 
+#header a.cart-button .items, 
+#header a.checkout .items,
+a.button,.quantity .minus,.quantity .plus,
+BUTTON.single_add_to_cart_button.button.alt,
+INPUT.checkout-button.button.alt.wc-forward,
+#place_order, #commentform #submit
+{
+	background: none repeat scroll 0% 0% padding-box rgba(253, 235, 184, 0.55);
+	box-shadow: 0px 0px 0px 0.382em rgba(255, 255, 255, 0.6) inset;
+	border: 1px solid rgb(201, 166, 180);
+	color:black;
+	font-family: inherit !important;
+	text-shadow:none;
+}
+
+#header a.cart-button:hover .lozenge,
+#header a.checkout:hover .lozenge,
+#header a.cart-button:hover .items,
+#header a.checkout:hover .items,
+a.button:hover,.quantity .minus:hover,
+.quantity .plus:hover,
+BUTTON.single_add_to_cart_button.button.alt:hover,
+INPUT.checkout-button.button.alt.wc-forward:hover,
+#place_order:hover, #commentform #submit:hover
+{
+	background: none repeat scroll 0% 0% rgba(124, 124, 206, .7) !important;
+}
+
+.post, .type-page, #comments
+{
+	background-image: none;
+	box-shadow:none;
+	box-shadow: 0px 0px 0px 0.382em rgba(255, 255, 255, 0.6) inset, 0px 1em 2em rgba(0, 0, 0, 0.1);
+}
+
+.archive-description 
+{
+ 	font-size: 1.6em;
+  font-weight: 700;
+}
+
+section .pet
+{
+	margin:10px;
+	padding:10px;
+	box-shadow: 0px 0px 0px 0.382em rgba(255, 255, 255, 0.6) inset, 0px 1em 2em rgba(0, 0, 0, 0.1);
+}
+
+section .pet h1 a
+{
+	color: rgb(62, 62, 62);
+}
+
+section .pet img, .pet_thumb img,
+.widget.otw-widget-1.widget-first.widget_pet_display ul img
+{
+	border: solid;
+	margin: auto;
+	display: block;
+}
+
+a.fancybox img
+{
+	width:35%;
+}
+
+#navigation ul.nav li a 
+{
+	color:#2b2b9d;
+}	
+
+#navigation ul.nav li.home a 
+{
+	border: 0.327em solid #e1b11f;
+}
+
+#navigation ul.nav li.home a span 
+{
+	background: url("../images/home.png") no-repeat scroll center center #2b2b9d;
+}
+
+#navigation ul.nav li.home a:hover span 
+{
+	background-color: #f0d47e;
+}
+
+
+#navigation ul.nav > li a:hover,  
+#navigation ul.nav ul li a:hover 
+{
+	background: none repeat scroll 0% 0% rgba(253, 235, 184, 0.55);
+  box-shadow: 0px 0.382em 0px 0px #2b2b9d inset;
+  text-decoration:underline;
+}
+
+#navigation ul.nav > li.current_page_item
+{
+	text-decoration:none;
+}
+
+#breadcrumbs .breadcrumb-trail 
+{
+  background-image: none;
+  background:rgba(255, 255, 255, .65);
+}
+
+#breadcrumbs a 
+{
+	color: black;
+}
+
+input[type="submit"]
+{
+	border: 1px solid rgb(201, 166, 180);
+	border-radius: 1em 1em 1em 1em;
+	background: rgba(253, 235, 184, 0.55);
+	box-shadow: 0px 0px 0px 0.382em rgba(255, 255, 255, 0.6) inset;
+}
+
+input[type="submit"]:hover
+{
+	border: 1px solid rgb(201, 166, 180);
+	background: none repeat scroll 0% 0% rgba(124, 124, 206, .7);
+	box-shadow: 0px 0px 0px 0.382em rgba(255, 255, 255, 0.6) inset;
+}
+	
+h1
+{
+	text-shadow:none !important;
+}
+
+/*prevent double pet display*/
+.pet_info .pet_image, ASIDE.post-meta, 
+.pet_meta, .post-more
+{
+	display:none;
+}
+
+/*show image in footer widget*/
+ul.widget.pet_info .pet_image
+{
+	display:block;
+}
+
+/*pet manager in page widget*/
+.widget.otw-widget-1.widget-first.widget_pet_display
+{
+	list-style: none;
+	-webkit-column-count:2; 
+		 -moz-column-count:2; 
+					column-count:2;
+}
+
+.widget.otw-widget-1.widget-first.widget_pet_display h2,
+#credit
+{
+	display:none;
+}
+
+.widget.otw-widget-1.widget-first.widget_pet_display ul
+{
+	float:none;
+}
+
+/*random pet display on pages*/
+.widget_pet_display.amr_widget
+{
+	float:right;
+	width:275px;
+}
+
+.widget_pet_display.amr_widget .pet_name
+{
+	margin-top:0;
+}
+
+.widget_pet_display.amr_widget .pet_btn 
+{
+	margin-left:0;
+}
+
+/*events page calendar*/
+#afterbig1
+{
+	width:98% !important;
+}
+
+/*recently view pets*/
+.viewed_posts img
+{
+	display:block;
+	margin: auto;
+}
+
+/*btn in recently viewed widget*/
+.pet_btn
+{
+	position: relative;
+	margin:auto;
+	margin-top: -35px;
+	border: solid 1px;
+	z-index: 1000;
+}
+
+.widget.otw-widget-1.widget-first.widget_pet_display ul .pet_btn
+{
+	margin:0;
+}
+
+.widget.otw-widget-1.widget-first.widget_pet_display ul .pet_name
+{
+	margin-top: 35px;
+}
+
+.pet_thumb
+{
+	margin-top: 15px;
+	font-size: 1.25em;
+}
+
+UL.widget.pet_info .pet_btn
+{
+	margin-top:0;
+}
+
+#sidebar .widget:before, #sidebar .widget:after
+{
+	background:none;
+}
+
+#sidebar .widget
+{
+	background-color: rgb(247, 242, 238);
+	background-image:none;
+}
+
+#sidebar .widget, #sidebar .widget.alt 
+{
+	-webkit-transform:none;
+					transform: none;
+	padding-bottom: 20px;
+}
+
+#sidebar .widget .inner 
+{
+	border:none;
+	padding:0;
+	width:100%;
+}
+
+#sidebar .widget h3 
+{
+  border: 0px none;
+}
+
+#searchpetform input[type="submit"]
+{
+	margin: auto !important;
+	display: block;
+	width: 75%;
+	color:black;
+	text-shadow:none;
+	font-family: inherit;
+	font-size: 1.1em;
+}
+
+#searchpetform select::-ms-expand 
+{
+	display: none; /* hide default arrow in IE10 */
+}
+
+select 
+{
+	width:60%;
+  color: rgb(43, 43, 157);
+  font-family:inherit;
+  font-weight: 300;
+  font-size: .9em;
+  line-height:1.2em;
+  margin: 0 0 10px;
+  padding: 6px; /* use this to set a specific height for your dropdown (DO NOT use the attribute 'height') */
+  cursor: pointer;
+  background: rgba(253, 235, 184, 0.5);
+  -webkit-appearance: none; /* gets rid of default appearance in Webkit browsers*/
+ 		 -moz-appearance: none; /* Get rid of default appearance for older Firefox browsers */
+		  -ms-appearance: none; /* get rid of default appearance for IE8, 9 and 10*/
+				  appearance: none;	
+}
+
+.woocommerce-billing-fields p 
+{
+	float:left !important;
+}
+
+#footer-widgets
+{
+	background: none repeat scroll 0% 0% rgba(253, 235, 184, 0.55);
+	box-shadow: 0px 0px 0px 0.382em rgba(255, 255, 255, 0.6) inset, 0px 1em 2em rgba(0, 0, 0, 0.1);
+}
+
+
+

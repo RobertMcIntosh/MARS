@@ -1,0 +1,814 @@
+<style type="text/css">
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+/* 
+GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+
+/* 
+DESKTOP STYLES
+-----------------
+Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
+@import url(../../plugins/theme-my-login/theme-my-login.css);
+html 
+{
+	margin: 5px !important;
+}
+
+#content
+{
+	margin: 0 5px;
+}
+
+#header #logo 
+{
+	width: 98%;
+}
+
+#footer 
+{
+	padding: 1em 0px;
+}
+
+#main  
+{
+	width: 75%;
+}
+
+a 
+{
+	color: rgb(43, 43, 157);
+}
+
+a:hover
+{
+	color:black;
+	text-decoration:underline;
+}
+
+.btmAnchor
+{
+	display:block:
+}
+
+#header .nav-toggle 
+{
+	font-size: 1.5em;
+  padding: 0.1em;
+}
+
+#navigation ul.nav
+{
+	margin-top:0;
+}
+
+#navigation ul.nav li a:hover 
+{
+  background: none repeat scroll 0% 0% rgba(253, 235, 184, 0.55);
+}
+
+#navigation ul.nav > li:hover, 
+#navigation ul.nav > li.current_page_item 
+{
+	box-shadow: 0px 0.382em 0px 0px rgb(82, 47, 61) inset;
+}
+
+#anchor
+{
+	margin:10px 0;
+	padding: 10px;
+}
+
+/*stop double h1*/
+section article section h1
+{
+	display:none;
+}
+
+.login
+{
+	display:inline;
+}
+
+#theme-my-login1 
+{
+	float: right;
+	margin-top: 2%;
+  margin-bottom: 1%;
+  margin-right:5%;
+  clear: both;
+  font-size: .7em;
+}
+
+#theme-my-login.login.profile
+{
+	font-size:1.3em;
+}
+
+#theme-my-login p.submit, .button-primary
+{
+	background:none;
+	box-shadow: none;
+	border:none;
+	color: black !important;
+}
+
+.widget.otw-widget-1.widget-first.widget_theme_my_login
+{
+	float:right;
+	margin-bottom: .5em;
+}
+
+.widget.otw-widget-1.widget-first.widget_theme_my_login h2
+{
+	margin-bottom:0;
+}
+
+.login form
+{
+	display: inline;
+  margin-right: 30px;
+  margin-bottom: 0px;
+  font-size: 90%;
+}
+
+#loginform .tml-action-links, #loginform1 .tml-action-links
+{
+	margin-top: 1em;
+	float:right;
+}
+
+#loginform .tml-action-links
+{
+	float:none;
+}
+
+#loginform .tml-action-links  li, #loginform1 .tml-action-links  li,
+.tml-user-links li
+{
+  display: inline !important;
+  padding-left: 10px;
+}
+
+DIV.widget.otw-widget-1.widget-first.widget_theme_my_login h2
+{
+	float: right;
+}
+
+#loginform .tml-action-links  li a, #loginform1 .tml-action-links  li a 
+{
+	text-decoration: none;
+  margin-right: 1.5em;
+}
+
+#user_login, #user_pass,
+#user_login1, #user_pass1
+{
+	margin-right: 1.5em;
+}
+
+#your-profile .form-table td 
+{
+	font-size:.8em;
+}
+
+#your-profile .form-table input 
+{
+	margin: 10px 1px;
+}
+
+.description, #pass-strength-result,
+.description.indicator-hint
+{
+	font-size:.8em;
+}
+
+.post, .type-page 
+{
+	padding: 1em;
+}
+
+#pass-strength-result
+{
+	color:green;
+}
+
+.pet_name  
+{
+	margin-top: 25px;
+}
+
+.pet_info 
+{
+	float:none;
+}
+
+.entry, .entry p  
+{
+	clear: both !important;
+	font: inherit;
+}
+
+.entry .otw-sidebar  
+{
+	float: left;
+	width: 100%;
+}
+
+.entry .otw-sidebar .pet_category  
+{
+	display: none;
+}
+
+/*pet pics in articles*/
+.post-661 .otw-sidebar.otw-sidebar-1.otw-sidebar-vertical
+{
+	width:32%;
+	min-width:315px;
+	float:right;
+	margin-top: 200px;
+	margin-left: 1%;
+}
+
+.post-661 DIV.widget.otw-widget-1.widget-first.widget_pet_display
+{
+	margin-bottom:0 !important;
+	padding-left: 4% !important;
+	padding-top: 3%;
+}
+
+.post-661 .otw-sidebar.otw-sidebar-1.otw-sidebar-vertical .pet_info
+{
+	display: block;
+	padding: 4% 0 13% 0;
+}
+
+/*wrap around pic*/
+.post-661 p
+{
+	clear:none !important;
+}
+
+.post-661 .otw-sidebar.otw-sidebar-1.otw-sidebar-vertical .pet_info .pet_name
+{
+	margin-top:20%;
+}
+
+.one-half
+{
+	width:40%;
+	float: left;
+	margin: 3% 3%;
+}
+
+/* columns on search results pages*/
+section .fix + .pet, .pet + .pet
+{
+	width: 35% !important;
+	min-width:271px;
+	padding:2% 7% 2% 2%;
+	float: left;
+	background-color: rgb(230, 225, 221);
+}
+
+.crp_related ul
+{
+	list-style:circle;
+}
+
+.widget.otw-widget-1.widget-first.widget_pet_display 
+{
+  list-style: none outside none;
+  margin-bottom:5% !important;
+  padding-left:4%;
+  -webkit-column-count: 2;  
+  -webkit-column-gap: 15px; 
+     -moz-column-count: 2;     
+     -moz-column-gap: 15px; 
+          column-count: 2;          
+          column-gap: 15px;
+	background: none repeat scroll 0% 0% rgba(253, 235, 184, 0.5);
+  -webkit-box-shadow: 0px 0px 0px 0.382em rgba(255, 255, 255, 0.6) inset, 0px 1em 2em rgba(0, 0, 0, 0.1);
+  	box-shadow: 0px 0px 0px 0.382em rgba(255, 255, 255, 0.6) inset, 0px 1em 2em rgba(0, 0, 0, 0.1);
+  border:solid grey 1px;
+}
+
+#sidebar  
+{
+	margin-top: 0px;
+	width: 301px;
+	float: left;
+}
+
+a.button, #commentform #submit, .submit, input[type="submit"], 
+input.button, button.button, .woo-pagination a 
+{
+	color: black;
+	font-size: 1em;
+	text-shadow: none;
+}
+
+.pet_btn a:hover > .icon 
+{
+	transform: scale(1.3);
+}
+
+.wpfp-img 
+{
+	display:inline !important;
+	border:none !important;
+	padding: 3px;
+	margin-bottom: 5px !important;
+	height:.8em;
+}
+
+.wpfp-hide.wpfp-img
+{
+	display:none !important;
+}
+
+/*remove favorite btn on favorite page, store page*/
+.entry span.wpfp-span, .page-title + span.wpfp-span, 
+#tab-description span.wpfp-span
+{
+	display:none !important;
+}
+
+/*stop double favorite btn*/
+.wpfp-span + span.wpfp-span
+{
+	display:block !important;
+}
+
+/*display fav btn on ea pet page*/
+section.entry.fix span.wpfp-span
+{
+	display:inline !important;
+}
+
+#searchpetform input[type="submit"] 
+{
+	display:inline-block;
+}
+
+.favorites a  
+{
+  color: rgb(43, 43, 157) !important;;
+}
+
+.favorites a:hover 
+{
+  color: rgb(82, 68, 47) !important;
+  text-decoration:underline;
+}
+
+.remove
+{
+	color: rgb(227,34,47);
+	font-size: 1.3em;
+	font-weight: 100;
+}
+
+.remove:hover
+{
+	text-decoration:none;
+}
+
+.woocommerce-tabs
+{
+	display:none;
+}
+
+.related.products
+{
+	padding:20px;
+	border-top:solid  grey;
+}
+
+.shipping_address p
+{
+	float:left;
+}
+
+.favorites
+{
+	padding-left:0;
+	-webkit-column-count: 2;  
+  -webkit-column-gap: 15px; 
+     -moz-column-count: 2;     
+     -moz-column-gap: 15px; 
+          column-count: 2;          
+          column-gap: 15px;
+}
+
+.favorites li
+{
+	margin:2%;
+	padding: 6%;
+	list-style:none;
+	background: none repeat scroll 0% 0% rgba(253, 235, 184, 0.5);
+  -webkit-box-shadow: 0px 0px 0px 0.382em rgba(255, 255, 255, 0.6) inset, 0px 1em 2em rgba(0, 0, 0, 0.1);
+  				box-shadow: 0px 0px 0px 0.382em rgba(255, 255, 255, 0.6) inset, 0px 1em 2em rgba(0, 0, 0, 0.1);
+  border:solid grey 1px;
+  float:right;
+	font-size:1.5em;
+}
+
+.favorites li.first 
+{
+	margin-top:6%;
+}
+
+.favorites .wpfp-img 
+{
+	width: 4%;
+	height: auto;
+	padding: 0;
+}
+
+.post-891 .favorites li.first 
+{
+	margin-top:2%;
+}
+
+#searchpetform ol
+{
+	margin-bottom: 5px;
+}
+
+.pet_info, #searchpetform
+{
+	margin-bottom:0;
+	list-style:none;
+}
+
+.petTitle
+{
+	color: rgb(62, 62, 62);
+}
+
+.petTitle:hover
+{
+	color:rgb(43, 43, 157);
+	text-decoration:underline;
+}
+
+.pet_info ul 
+{
+ 	display: inline-block;
+  width: 30%;
+  margin-bottom:0;
+  padding:0 20px 0 20px;
+  float: left;
+}
+
+.pet_btn .pet_info
+{
+  position: relative;
+  margin: -20px auto auto;
+  border: 1px solid;
+  z-index: 1000;
+}
+
+.pet_info ~ p
+{
+	margin: 3% 5%;
+} 
+
+.wpfp-link.remove-parent
+{
+	margin-bottom: 15px;
+	display: inline-block;
+	font-size: .55em;
+}
+
+#header~.wpfp-span
+{
+	display:none;
+}
+
+.type-page img
+{
+	background:none;
+}
+
+.favImg
+{
+	margin-bottom:0;
+}
+
+.favImg img
+{
+	width: 90%;
+	background: none repeat scroll 0% 0% rgb(255, 255, 255)
+}
+
+.favImg img:hover
+{
+	width: 90%;
+	background: rgb(43, 43, 157);
+}
+
+#post-entries
+{
+	background: none repeat scroll 0% 0% rgba(253, 235, 184, 0.55);
+	box-shadow: 0px 0px 0px 0.382em rgba(255, 255, 255, 0.6) inset, 0px 1em 2em rgba(0, 0, 0, 0.1);
+}
+
+#theme-my-login~#crp_related,
+.woocommerce~#crp_related
+{
+	display:none;
+}
+
+.footer-widget-1 .pet_btn
+{
+	margin:0 !important;
+}
+
+.footer-widget-1 .pet_info
+{
+	border:none;
+}
+
+.footer-widget-1 .pet_name
+{
+	margin-top:0;
+}
+
+#footer-widgets 
+{
+	padding: 1.3em;
+}
+
+#footer-widgets section
+{
+	margin-bottom: 0;
+}
+	/*hide buttons*/
+.collapseomatic 
+{
+	display:none;
+}
+
+/*----------------------------start custom media---------------------------------------*/
+
+@media only screen and (min-width: 1100px)  and (max-width:1400px)
+{ 
+	#header  
+	{
+		padding-bottom: 0;
+	}
+	
+	#navigation  
+	{
+		margin-bottom: 1.3em;
+	}
+	
+	section .pet  
+	{
+		display: inline-block;
+	}
+	
+	.note  
+	{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1051px)  and (max-width:1300px)
+{ 
+	#main
+	{
+		width: 69%;
+	}
+}
+
+@media only screen and (min-width: 1000px)  and (max-width:1200px)
+{ 
+	.favorites li.first
+	{
+		margin-top:7%;
+	}
+}
+
+@media only screen and (min-width: 950px)  and (max-width:1050px)
+{ 
+	#main
+	{
+		width: 66%;
+	}
+}
+
+@media only screen and (min-width: 801px)  and (max-width:950px)
+{ 
+	#main 
+	{
+    width: 58%;
+    float: right;
+	}
+}
+
+@media only screen and (min-width: 800px)  and (max-width:1050px)
+{ 
+	#navigation ul.nav li a 
+	{
+		padding:1em;
+	}
+	
+	.pet_info ul 
+	{
+    width: 70%;
+    padding: 0px 2px;
+	}
+	
+	section .fix + .pet, .pet + .pet 
+	{
+		width: 41% !important;
+    min-width: 160px;
+    padding: 2%;
+	}
+	
+	section .pet img
+	{
+		margin:5px;
+	}
+}
+
+@media only screen and (min-width: 801px)  and (max-width:1000px)
+{ 
+	.favorites li.first
+	{
+		margin-top: 10%;
+	}
+}
+
+@media only screen and (max-width: 814px)
+{ 
+	#header .nav-toggle 
+	{
+		display: inline-block;
+	}
+	
+	#navigation
+	{
+		margin:auto;
+		width:80%;
+	}
+	
+	#navigation ul.nav > li a:hover,  
+	#navigation ul.nav ul li a:hover 
+	{
+	  box-shadow: none;
+	}
+	
+	.layout-full #main, .woocommerce-fullwidth #main 
+	{
+    width: 100%;
+    min-width: 605px;
+	}
+	
+}
+
+@media only screen and (max-width:800px)
+{ 
+	#header #logo
+	{
+		margin-left:1%;
+	}
+	
+	#header a.cart-button
+	{
+		float:right;
+	}
+	
+	.btmAnchor
+	{
+		display:none;
+	}
+	
+	.nav-toggle
+	{
+		display:inline-block !important;
+		clear: both;
+	}
+	
+	#navigation ul.nav li.home a 
+	{
+    border: none;
+	}
+	
+	#navigation ul.nav li a:hover 
+	{
+    border: 0.327em solid rgb(225, 177, 31);
+	}
+	
+	#navigation ul.nav li.home a span
+	{
+		background: none;	
+	}
+	
+	#navigation ul.nav li.home a:hover span
+	{
+		background-color: transparent;
+	}
+	
+	#main
+	{
+		width: 90%;
+		margin: auto;
+	}
+	
+	.page header h1
+	{
+		line-height:135%;
+	}
+	
+	.favorites li.first
+	{
+		margin-top:10%;
+	}		
+	
+	.collapseomatic
+	{
+		display: block !important;
+		font-family: "body-font";
+		color: rgb(43, 43, 157);
+	}
+	
+	section .fix + .pet, .pet + .pet 
+	{
+		width: 70% !important;
+		margin: auto;
+		margin-bottom: 1em;
+		float:none;
+	}
+	
+	#sidebar 
+	{
+    margin: auto;
+    width: 90%;
+		float:none;
+		clear: both;
+	}
+	
+	.collapseomatic_content 
+	{
+    margin-left: 0;
+	}
+	
+	.pet_info, #searchpetform 
+	{
+		width: 395px;
+		margin: auto;
+    transform: rotate(.6deg);
+	}
+	
+	.eme-calendar-table 
+	{
+		width: 431px;
+		margin: auto;
+	}
+	
+	.viewed_posts .pet_thumb
+	{
+		padding-bottom:25px;
+		border-bottom: solid grey 1px;
+		-webkit-transform:rotate(.5deg);
+				-ms-transform:rotate(.5deg);
+						transform:rotate(.5deg);
+	}
+	
+	.viewed_posts .pet_btn 
+	{
+    margin: -40px auto auto;
+	}
+	
+	#footer-widgets 
+	{
+    width: 90%;
+    margin: auto;
+  }
+  
+  #footer
+  {
+  	width: 90%;
+  	margin: auto;
+  }
+  
+  .widget.widget_pet_display
+  {
+  	display:none;
+  }
+}
+
+

@@ -1,0 +1,218 @@
+0000.000 () Opened log file at time: Fri, 26 Apr 2013 22:47:21 +0000
+0000.003 () UpdraftPlus: 1.5.22 WP: 3.5.1 PHP: 5.4.4 (Darwin MainPowerGrid-ControlCenter-Minneapolis.local 10.8.0 Darwin Kernel Version 10.8.0: Tue Jun  7 16:33:36 PDT 2011; root:xnu-1504.15.3~1/RELEASE_I386 i386) Server: Apache/2.2.22 (Unix) mod_ssl/2.2.22 OpenSSL/0.9.8r DAV/2 PHP/5.4.4 max_execution_time: 900 memory_limit: 256M ZipArchive::addFile : Y
+0000.005 () Free space on disk containing Updraft's temporary directory: 30819.4 Mb
+0000.007 () Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.009 () Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.014 (0) Backup run: resumption=0, nonce=19240a1bcfc6, begun at=1367016441 (0s ago), job type=backup
+0000.015 (0) Scheduling a resumption (1) after 300 seconds (1367016741) in case this run gets aborted
+0000.018 (0) Creation of backups of directories: beginning
+0000.075 (0) Beginning creation of dump of plugins
+0000.265 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip.tmp: 100 files added (on-disk size: 440.5 Kb, lwt=0s)
+0000.393 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip.tmp: 200 files added (on-disk size: 686.3 Kb, lwt=0s)
+0000.680 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip.tmp: 300 files added (on-disk size: 1400.8 Kb, lwt=0s)
+0001.049 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip.tmp: 400 files added (on-disk size: 2182.7 Kb, lwt=0s)
+0001.596 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip.tmp: 500 files added (on-disk size: 3126.5 Kb, lwt=0s)
+0001.774 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip.tmp: 600 files added (on-disk size: 3813.6 Kb, lwt=0s)
+0002.434 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip.tmp: 700 files added (on-disk size: 7577.2 Kb, lwt=0s)
+0003.747 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip.tmp: 800 files added (on-disk size: 8914.3 Kb, lwt=0s)
+0004.168 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip.tmp: 900 files added (on-disk size: 9158.1 Kb, lwt=0s)
+0004.637 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip.tmp: 1000 files added (on-disk size: 9554.7 Kb, lwt=0s)
+0005.487 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip.tmp: 1100 files added (on-disk size: 11339.1 Kb, lwt=1s)
+0006.285 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip.tmp: 1200 files added (on-disk size: 12267 Kb, lwt=0s)
+0007.612 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip.tmp: 1300 files added (on-disk size: 14061.4 Kb, lwt=0s)
+0009.702 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip.tmp: 1400 files added (on-disk size: 14862.3 Kb, lwt=1s)
+0011.394 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip.tmp: 1500 files added (on-disk size: 16444.5 Kb, lwt=0s)
+0013.227 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip.tmp: 1600 files added (on-disk size: 17245.4 Kb, lwt=0s)
+0013.696 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip.tmp: 1700 files added (on-disk size: 17934.1 Kb, lwt=0s)
+0014.865 (0) Created plugins zip - file size is 18528.8 Kb in 14.8 s (1252.9 Kb/s)
+0014.867 (0) Beginning creation of dump of themes
+0015.488 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-themes.zip.tmp: 100 files added (on-disk size: 1023.2 Kb, lwt=0s)
+0015.676 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-themes.zip.tmp: 200 files added (on-disk size: 1245.9 Kb, lwt=0s)
+0016.331 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-themes.zip.tmp: 300 files added (on-disk size: 2029.5 Kb, lwt=0s)
+0016.767 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-themes.zip.tmp: 400 files added (on-disk size: 2994.8 Kb, lwt=0s)
+0017.360 (0) Created themes zip - file size is 3206.1 Kb in 2.5 s (1286.8 Kb/s)
+0017.362 (0) Beginning creation of dump of uploads
+0017.458 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb, lwt=1s)
+0017.465 (0) Zip: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-uploads.zip.tmp: 200 files added (on-disk size: 0 Kb, lwt=1s)
+0021.233 (0) Created uploads zip - file size is 11083.5 Kb in 3.9 s (2864.4 Kb/s)
+0021.234 (0) Beginning backup of other directories found in the content directory
+0021.236 (0) Looking for candidates to back up in: /Applications/MAMP/htdocs/MARS/wp-content
+0021.238 (0) finding files: index.php: skipping: excluded by options
+0021.239 (0) finding files: plugins: skipping: this is the plugins directory
+0021.241 (0) finding files: themes: skipping: this is the themes directory
+0021.242 (0) finding files: updraft: skipping: this is the updraft directory
+0021.243 (0) finding files: upgrade: skipping: excluded by options
+0021.245 (0) finding files: uploads: skipping: this is the uploads directory
+0021.246 (0) No backup of other directories: there was nothing found to back up
+0021.249 (0) Saving backup status to database (elements: 6)
+0021.251 (0) Beginning creation of database dump
+0021.329 (0) Table users: finishing file (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-users.table.gz)
+0021.334 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0021.335 (0) Table wp_commentmeta: finishing file (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_commentmeta.table.gz)
+0021.342 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0021.343 (0) Table wp_comments: finishing file (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_comments.table.gz)
+0021.380 (0) Table wp_cp_donations: Total rows added: 1 in 0.03 seconds
+0021.382 (0) Table wp_cp_donations: finishing file (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_cp_donations.table.gz)
+0021.443 (0) Table wp_duplicator: Total rows added: 1 in 0.06 seconds
+0021.445 (0) Table wp_duplicator: finishing file (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_duplicator.table.gz)
+0021.466 (0) Table wp_links: Total rows added: 0 in 0.02 seconds
+0021.467 (0) Table wp_links: finishing file (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_links.table.gz)
+0021.549 (0) Table wp_options: Total rows added: 419 in 0.08 seconds
+0021.550 (0) Table wp_options: finishing file (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_options.table.gz)
+0021.626 (0) Table wp_postmeta: Total rows added: 1101 in 0.07 seconds
+0021.640 (0) Table wp_postmeta: finishing file (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_postmeta.table.gz)
+0021.880 (0) Table wp_posts: Total rows added: 419 in 0.24 seconds
+0021.883 (0) Table wp_posts: finishing file (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_posts.table.gz)
+0022.073 (0) Table wp_relevanssi: Total rows added: 742 in 0.19 seconds
+0022.096 (0) Table wp_relevanssi: finishing file (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_relevanssi.table.gz)
+0022.104 (0) Table wp_relevanssi_cache: Total rows added: 0 in 0.01 seconds
+0022.106 (0) Table wp_relevanssi_cache: finishing file (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_relevanssi_cache.table.gz)
+0022.114 (0) Table wp_relevanssi_excerpt_cache: Total rows added: 0 in 0.01 seconds
+0022.115 (0) Table wp_relevanssi_excerpt_cache: finishing file (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_relevanssi_excerpt_cache.table.gz)
+0022.123 (0) Table wp_relevanssi_log: Total rows added: 1 in 0.01 seconds
+0022.125 (0) Table wp_relevanssi_log: finishing file (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_relevanssi_log.table.gz)
+0022.141 (0) Table wp_relevanssi_stopwords: Total rows added: 317 in 0.02 seconds
+0022.143 (0) Table wp_relevanssi_stopwords: finishing file (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_relevanssi_stopwords.table.gz)
+0022.152 (0) Table wp_term_relationships: Total rows added: 137 in 0.01 seconds
+0022.153 (0) Table wp_term_relationships: finishing file (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_term_relationships.table.gz)
+0022.161 (0) Table wp_term_taxonomy: Total rows added: 39 in 0.01 seconds
+0022.162 (0) Table wp_term_taxonomy: finishing file (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_term_taxonomy.table.gz)
+0022.170 (0) Table wp_terms: Total rows added: 37 in 0.01 seconds
+0022.171 (0) Table wp_terms: finishing file (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_terms.table.gz)
+0022.178 (0) Table wp_usermeta: Total rows added: 30 in 0.01 seconds
+0022.179 (0) Table wp_usermeta: finishing file (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_usermeta.table.gz)
+0022.185 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0022.187 (0) Table wp_users: finishing file (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_users.table.gz)
+0022.216 (0) Table wp_yarpp_related_cache: Total rows added: 4 in 0.03 seconds
+0022.218 (0) Table wp_yarpp_related_cache: finishing file (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_yarpp_related_cache.table.gz)
+0022.221 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-users.table.gz: adding to final database dump
+0022.223 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_commentmeta.table.gz: adding to final database dump
+0022.225 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_comments.table.gz: adding to final database dump
+0022.227 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_cp_donations.table.gz: adding to final database dump
+0022.229 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_duplicator.table.gz: adding to final database dump
+0022.231 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_links.table.gz: adding to final database dump
+0022.232 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_options.table.gz: adding to final database dump
+0022.274 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_postmeta.table.gz: adding to final database dump
+0022.286 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_posts.table.gz: adding to final database dump
+0022.328 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_relevanssi.table.gz: adding to final database dump
+0022.336 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_relevanssi_cache.table.gz: adding to final database dump
+0022.338 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_relevanssi_excerpt_cache.table.gz: adding to final database dump
+0022.340 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_relevanssi_log.table.gz: adding to final database dump
+0022.342 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_relevanssi_stopwords.table.gz: adding to final database dump
+0022.346 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_term_relationships.table.gz: adding to final database dump
+0022.349 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_term_taxonomy.table.gz: adding to final database dump
+0022.352 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_terms.table.gz: adding to final database dump
+0022.354 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_usermeta.table.gz: adding to final database dump
+0022.356 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_users.table.gz: adding to final database dump
+0022.358 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db-table-wp_yarpp_related_cache.table.gz: adding to final database dump
+0022.360 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db.gz: finished writing out complete database file (208 Kb)
+0022.363 (0) Total database tables backed up: 20
+0022.399 (0) Saving backup history
+0022.404 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0022.405 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0022.406 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0022.408 (0) backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db.gz: db: This file has not yet been successfully uploaded: will queue
+0022.409 (0) Requesting backup of the files that were not successfully uploaded
+0022.410 (0) Cloud backup selection: dropbox
+0022.411 (0) Beginning dispatch of backup to remote
+0022.413 (0) Dropbox: begin cloud upload
+0022.414 (0) Dropbox: access gained
+0022.432 (0) Dropbox: Attempt to upload: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip to: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip
+0025.444 (0) Dropbox chunked upload: 2.8 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 524288)
+0028.242 (0) Dropbox chunked upload: 5.5 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 1048576)
+0031.620 (0) Dropbox chunked upload: 8.3 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 1572864)
+0034.898 (0) Dropbox chunked upload: 11.1 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 2097152)
+0038.414 (0) Dropbox chunked upload: 13.8 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 2621440)
+0042.782 (0) Dropbox chunked upload: 16.6 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 3145728)
+0047.559 (0) Dropbox chunked upload: 19.3 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 3670016)
+0055.152 (0) Dropbox chunked upload: 22.1 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 4194304)
+0058.219 (0) Dropbox chunked upload: 24.9 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 4718592)
+0062.205 (0) Dropbox chunked upload: 27.6 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 5242880)
+0065.510 (0) Dropbox chunked upload: 30.4 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 5767168)
+0068.808 (0) Dropbox chunked upload: 33.2 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 6291456)
+0076.867 (0) Dropbox chunked upload: 35.9 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 6815744)
+0081.639 (0) Dropbox chunked upload: 38.7 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 7340032)
+0085.678 (0) Dropbox chunked upload: 41.4 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 7864320)
+0090.366 (0) Dropbox chunked upload: 44.2 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 8388608)
+0092.549 (0) Dropbox chunked upload: 47 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 8912896)
+0095.311 (0) Dropbox chunked upload: 49.7 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 9437184)
+0098.586 (0) Dropbox chunked upload: 52.5 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 9961472)
+0102.802 (0) Dropbox chunked upload: 55.3 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 10485760)
+0106.790 (0) Dropbox chunked upload: 58 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 11010048)
+0110.556 (0) Dropbox chunked upload: 60.8 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 11534336)
+0114.770 (0) Dropbox chunked upload: 63.6 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 12058624)
+0121.366 (0) Dropbox chunked upload: 66.3 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 12582912)
+0124.389 (0) Dropbox chunked upload: 69.1 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 13107200)
+0128.798 (0) Dropbox chunked upload: 71.8 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 13631488)
+0132.588 (0) Dropbox chunked upload: 74.6 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 14155776)
+0136.111 (0) Dropbox chunked upload: 77.4 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 14680064)
+0139.430 (0) Dropbox chunked upload: 80.1 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 15204352)
+0144.080 (0) Dropbox chunked upload: 82.9 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 15728640)
+0149.665 (0) Dropbox chunked upload: 85.7 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 16252928)
+0155.430 (0) Dropbox chunked upload: 88.4 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 16777216)
+0157.733 (0) Dropbox chunked upload: 91.2 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 17301504)
+0161.359 (0) Dropbox chunked upload: 94 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 17825792)
+0165.177 (0) Dropbox chunked upload: 96.7 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 18350080)
+0169.423 (0) Dropbox chunked upload: 99.5 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 18874368)
+0173.384 (0) Dropbox chunked upload: 100 % uploaded (TtyEaxLAIgPBOvCrAWZboA, 18973445)
+0176.896 (0) Recording as successfully uploaded: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip (67dc35cbf8faf67cb49661e9e4bd105d)
+0176.900 (0) Deleting local file: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip
+0176.904 (0) Dropbox: File upload success (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-plugins.zip): 18528 Kb in 154s (119 Kb/s)
+0176.907 (0) Dropbox: Attempt to upload: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-themes.zip to: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-themes.zip
+0179.384 (0) Dropbox chunked upload: 16 % uploaded (-lx0ikim-lNAS0GVfxKgbw, 524288)
+0183.477 (0) Dropbox chunked upload: 31.9 % uploaded (-lx0ikim-lNAS0GVfxKgbw, 1048576)
+0187.469 (0) Dropbox chunked upload: 47.9 % uploaded (-lx0ikim-lNAS0GVfxKgbw, 1572864)
+0194.276 (0) Dropbox chunked upload: 63.9 % uploaded (-lx0ikim-lNAS0GVfxKgbw, 2097152)
+0199.244 (0) Dropbox chunked upload: 79.8 % uploaded (-lx0ikim-lNAS0GVfxKgbw, 2621440)
+0203.219 (0) Dropbox chunked upload: 95.8 % uploaded (-lx0ikim-lNAS0GVfxKgbw, 3145728)
+0206.874 (0) Dropbox chunked upload: 100 % uploaded (-lx0ikim-lNAS0GVfxKgbw, 3282998)
+0209.826 (0) Recording as successfully uploaded: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-themes.zip (155200bffbf7fc067ffd3ab1ddf7929e)
+0209.833 (0) Deleting local file: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-themes.zip
+0209.835 (0) Dropbox: File upload success (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-themes.zip): 3206 Kb in 32s (97 Kb/s)
+0209.838 (0) Dropbox: Attempt to upload: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-uploads.zip to: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-uploads.zip
+0212.452 (0) Dropbox chunked upload: 4.6 % uploaded (MglbVtcO4beeemPyRVk05g, 524288)
+0215.038 (0) Dropbox chunked upload: 9.2 % uploaded (MglbVtcO4beeemPyRVk05g, 1048576)
+0219.065 (0) Dropbox chunked upload: 13.9 % uploaded (MglbVtcO4beeemPyRVk05g, 1572864)
+0222.117 (0) Dropbox chunked upload: 18.5 % uploaded (MglbVtcO4beeemPyRVk05g, 2097152)
+0225.533 (0) Dropbox chunked upload: 23.1 % uploaded (MglbVtcO4beeemPyRVk05g, 2621440)
+0229.347 (0) Dropbox chunked upload: 27.7 % uploaded (MglbVtcO4beeemPyRVk05g, 3145728)
+0233.616 (0) Dropbox chunked upload: 32.3 % uploaded (MglbVtcO4beeemPyRVk05g, 3670016)
+0237.937 (0) Dropbox chunked upload: 37 % uploaded (MglbVtcO4beeemPyRVk05g, 4194304)
+0242.425 (0) Dropbox chunked upload: 41.6 % uploaded (MglbVtcO4beeemPyRVk05g, 4718592)
+0245.695 (0) Dropbox chunked upload: 46.2 % uploaded (MglbVtcO4beeemPyRVk05g, 5242880)
+0248.329 (0) Dropbox chunked upload: 50.8 % uploaded (MglbVtcO4beeemPyRVk05g, 5767168)
+0251.770 (0) Dropbox chunked upload: 55.4 % uploaded (MglbVtcO4beeemPyRVk05g, 6291456)
+0256.278 (0) Dropbox chunked upload: 60.1 % uploaded (MglbVtcO4beeemPyRVk05g, 6815744)
+0262.029 (0) Dropbox chunked upload: 64.7 % uploaded (MglbVtcO4beeemPyRVk05g, 7340032)
+0266.991 (0) Dropbox chunked upload: 69.3 % uploaded (MglbVtcO4beeemPyRVk05g, 7864320)
+0272.091 (0) Dropbox chunked upload: 73.9 % uploaded (MglbVtcO4beeemPyRVk05g, 8388608)
+0272.095 (0) The scheduled resumption is within 30 seconds - will reschedule
+0272.098 (0) Rescheduling resumption 1: moving to 330 seconds from now (1367017043)
+0272.103 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 30 = 330
+0275.811 (0) Dropbox chunked upload: 78.5 % uploaded (MglbVtcO4beeemPyRVk05g, 8912896)
+0280.360 (0) Dropbox chunked upload: 83.2 % uploaded (MglbVtcO4beeemPyRVk05g, 9437184)
+0283.313 (0) Dropbox chunked upload: 87.8 % uploaded (MglbVtcO4beeemPyRVk05g, 9961472)
+0287.744 (0) Dropbox chunked upload: 92.4 % uploaded (MglbVtcO4beeemPyRVk05g, 10485760)
+0290.888 (0) Dropbox chunked upload: 97 % uploaded (MglbVtcO4beeemPyRVk05g, 11010048)
+0294.061 (0) Dropbox chunked upload: 100 % uploaded (MglbVtcO4beeemPyRVk05g, 11349453)
+0296.768 (0) Recording as successfully uploaded: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-uploads.zip (38e8856f6c5e7c9f7b033a28add1c115)
+0296.772 (0) Deleting local file: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-uploads.zip
+0296.775 (0) Dropbox: File upload success (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-uploads.zip): 11083 Kb in 86s (127 Kb/s)
+0296.778 (0) Dropbox: Attempt to upload: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db.gz to: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db.gz
+0298.267 (0) Dropbox chunked upload: 100 % uploaded (BEKZ_OIXasl1UZM2x8ZlSw, 234677)
+0299.448 (0) Recording as successfully uploaded: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db.gz (6d0452d27214b16e4858dd3aef7ca73c)
+0299.453 (0) Deleting local file: backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db.gz
+0299.455 (0) Dropbox: File upload success (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db.gz): 229 Kb in 2s (85 Kb/s)
+0299.457 (0) Retain: beginning examination of existing backup sets
+0299.459 (0) Retain files: user setting: number to retain = 1
+0299.460 (0) Retain db: user setting: number to retain = 1
+0299.461 (0) Number of backup sets in history: 1
+0299.464 (0) Examining backup set with datestamp: 1367016441
+0299.465 (0) 1367016441: this set includes a database (backup_2013-04-26-2247_MARS_Midwest_Animal_Rescue__amp_Services_19240a1bcfc6-db.gz); db count is now 1
+0299.467 (0) 1367016441: this set includes files; fileset count is now 1
+0299.469 (0) 1367016441: this backup set remains non-empty; will retain in history
+0299.470 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0299.471 (0) Resume backup (19240a1bcfc6, 0): finish run
+0299.474 (0) There were no errors in the uploads, so the 'resume' event is being unscheduled
+0299.477 (0) No email will/can be sent - the user has not configured an email address.
+0299.478 (0) The backup apparently succeeded and is now complete

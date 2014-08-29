@@ -1,0 +1,218 @@
+<style type="text/css">
+.otw-sidebar
+{
+	margin-top:0;
+	float:right;
+}
+
+.otw-sidebar .widget
+{
+	margin:0 !important;
+}
+
+.otw-sidebar .widget h2
+{
+	display: inline-block;
+	margin-top: 6px !important;
+}
+
+.login
+{	
+	display:inline;
+	float: right;
+	clear:both;
+	padding: 5px;
+}
+
+/*form on profile page*/
+section .login
+{
+	float:none;
+}
+
+.login p.error
+{
+	padding: 5px;
+	border: 1px solid #c00;
+	background-color: #ffebe8;
+	color: #333;
+}
+
+.login p.message
+{
+	padding: 5px;
+	border: 1px solid #e6db55;
+	background-color: #ffffe0;
+	color: #333;
+}
+
+.login form 
+{
+	display: inline;
+	margin-right: 30px;
+	margin-bottom:0;
+	font-size:65%;
+}
+
+#your-profile
+{
+	float:none;
+}
+
+.login form label
+{
+	margin-left: 10px;
+	margin-right: 5px;
+	display: inline;
+}
+
+.login form input
+{
+	font-size:1em;
+	color:black;
+}
+
+.login form p.forgetmenot label, #loginform1 p
+{
+	display: inline;
+}
+
+#rememberme
+{
+	margin-top: 5px;
+	float: right;
+}
+
+#rememberme label
+{
+	margin-left:0 !important;
+}
+
+.login input
+{
+	margin: 5px 0;
+}
+
+#wp-submit1
+{
+	margin-left:20px;
+	font-size: 1em;
+}
+
+.profile .screen-reader-text,.profile .screen-reader-text span
+{
+	height: 1px;
+	left: -1000em;
+	overflow: hidden;
+	position: absolute;
+	width: 1px;
+}
+
+.mu_register .hint
+{
+	font-size: 12px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.mu_register label.checkbox
+{
+	display: inline;
+}
+
+#pass-strength-result
+{
+	border-style: solid;
+	border-width: 1px;
+	margin: 12px 5px 5px 1px;
+	padding: 3px 5px;
+	text-align: center;
+	width: 200px;
+}
+
+#pass-strength-result.strong,#pass-strength-result.short
+{
+	font-weight: bold;
+}
+
+#pass-strength-result
+{
+	background-color: #eee;
+	border-color: #ddd !important;
+}
+
+#pass-strength-result.bad
+{
+	background-color: #ffb78c;
+	border-color: #ff853c !important;
+}
+
+#pass-strength-result.good
+{
+	background-color: #ffec8b;
+	border-color: #fc0 !important;
+}
+
+#pass-strength-result.short
+{
+	background-color: #ffa0a0;
+	border-color: #f04040 !important;
+}
+
+#pass-strength-result.strong
+{
+	background-color: #c3ff88;
+	border-color: #8dff1c !important;
+}
+
+.tml-user-links
+{
+	margin-top:5px;
+}
+
+.tml-user-links li
+{
+	display:inline;
+}
+
+.tml-user-links.first
+{
+	display:inline;
+}
+
+/*override articfier widget ul*/
+.widget ul.tml-action-links 
+{
+	display:inline!important;	
+}
+
+.widget ul li a 
+{
+	padding: 10px;
+	text-decoration: none;
+  color: black;
+}
+
+.tml-action-links li
+{
+	float:right;	
+	margin-right:20px;
+	margin-top: 5px;
+}
+
+BODY.login.login-action-login.wp-core-ui
+{
+	float:none;
+}
+
+BODY.login.login-action-login.wp-core-ui form
+{
+	background:transparent;
+	box-shadow: none;
+}
+
+
+
+
+
+
