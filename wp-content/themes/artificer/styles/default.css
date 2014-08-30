@@ -226,18 +226,43 @@ ul.widget.pet_info .pet_image
 }
 
 /*random pet display on pages*/
-.widget_pet_display.amr_widget
+.amr-left
 {
-	float:right;
-	width:275px;
+	float:left;
 }
 
-.widget_pet_display.amr_widget .pet_name
+.amr-right
+{
+	float:right;
+}
+
+.amr-widget-area
+{
+	float:right;
+	margin: 4%;
+	width:275px;
+	list-style:none;
+	border: solid 1px rgb(145,145,145);
+}
+
+.amr-widget-area .widget.widget_pet_display
+{
+	margin:0 auto;
+	width: 90%;
+	padding:0;
+}
+
+.amr-widget-area .widgettitle
+{
+	display:none;
+}
+
+.amr-widget-area .pet_name
 {
 	margin-top:0;
 }
 
-.widget_pet_display.amr_widget .pet_btn 
+.amr-widget-area .pet_btn 
 {
 	margin-left:0;
 }
