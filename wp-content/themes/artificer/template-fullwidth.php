@@ -40,7 +40,7 @@
 				} else {
 			?>
 				<article <?php post_class(); ?>>
-                	<p><?php _e( 'Sorry, no posts matched your criteria.', 'woothemes' ); ?></p>
+                	<p><?php _e( 'Sorry, nothing matched your criteria. Try simplifying your search.', 'woothemes' ); ?></p>
                 </article><!-- /.post -->
             <?php } ?>  
         

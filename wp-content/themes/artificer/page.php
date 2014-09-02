@@ -38,7 +38,7 @@ global $woo_options;
 	} else {
 		?> <article <?php post_class(); ?>>
 	<p>
-	<?php _e( 'Sorry, no posts matched your criteria.', 'woothemes' ); ?>
+	<?php _e( 'Sorry, nothing matched your criteria. Try simplifying your search..', 'woothemes' ); ?>
 	</p>
 	</article><!-- /.post --> <?php } // End IF Statement ?> </section>
 	<!-- /#main -->

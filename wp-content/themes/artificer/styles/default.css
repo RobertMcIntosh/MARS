@@ -105,7 +105,7 @@ INPUT.checkout-button.button.alt.wc-forward:hover,
 section .pet
 {
 	margin:10px;
-	padding:10px;
+	padding: 4% 10px;
 	box-shadow: 0px 0px 0px 0.382em rgba(255, 255, 255, 0.6) inset, 0px 1em 2em rgba(0, 0, 0, 0.1);
 }
 
@@ -229,17 +229,18 @@ ul.widget.pet_info .pet_image
 .amr-left
 {
 	float:left;
+	margin-right: 3%;
 }
 
 .amr-right
 {
 	float:right;
+	margin-left: 3%;
 }
 
 .amr-widget-area
 {
 	float:right;
-	margin: 4%;
 	width:275px;
 	list-style:none;
 	border: solid 1px rgb(145,145,145);

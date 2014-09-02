@@ -60,7 +60,7 @@ msgstr ""
 #: template-blog.php:86
 #: template-fullwidth.php:43
 #@ woothemes
-msgid "Sorry, no posts matched your criteria."
+msgid "Sorry, nothing matched your criteria. Try simplifying your search."
 msgstr ""
 
 #: comments.php:19

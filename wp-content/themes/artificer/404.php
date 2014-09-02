@@ -9,10 +9,10 @@
             <div class="page">
 				
 				<header>
-                	<h1><?php _e( 'Error 404 - Page not found!', 'woothemes' ); ?></h1>
+                	<h1><?php _e( 'Oops - Page not found!', 'woothemes' ); ?></h1>
                 </header>
                 <section class="entry">
-                	<p><?php _e( 'The page you trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for.', 'woothemes' ); ?></p>
+                	<p><?php _e( 'The page you trying to reach does not exist, or has been moved. Please use the menu to find what you are looking for.', 'woothemes' ); ?></p>
                 </section>
 
             </div><!-- /.post -->
