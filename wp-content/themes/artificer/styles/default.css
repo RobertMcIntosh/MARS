@@ -242,6 +242,7 @@ ul.widget.pet_info .pet_image
 {
 	float:right;
 	width:275px;
+	padding: 2px 0;
 	list-style:none;
 	border: solid 1px rgb(145,145,145);
 }
@@ -266,6 +267,11 @@ ul.widget.pet_info .pet_image
 .amr-widget-area .pet_btn 
 {
 	margin-left:0;
+}
+
+#widgets_for_shortcodes .widget .pet_info
+{
+	width: 275px;
 }
 
 /*events page calendar*/

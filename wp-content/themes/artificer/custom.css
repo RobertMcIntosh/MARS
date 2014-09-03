@@ -603,7 +603,7 @@ section.entry.fix span.wpfp-span
 	#main 
 	{
     width: 58%;
-    float: right;
+    margin: auto;
 	}
 }
 
@@ -664,8 +664,7 @@ section.entry.fix span.wpfp-span
 	
 	.layout-full #main, .woocommerce-fullwidth #main 
 	{
-    width: 95%;
-    min-width: 605px;
+    padding-left:4%;
 	}
 	
 }
