@@ -634,7 +634,7 @@ jQuery(document).on(\'ready post-load\', easy_fancybox_handler );
 
 		add_action('init', array(__CLASS__, 'init'));
 		add_action('wp_enqueue_scripts', array(__CLASS__, 'enqueue_styles'), 999);
-		add_action('wp_head', array(__CLASS__, 'main_script'), 999);
+		add_action('wp_footer', array(__CLASS__, 'main_script'), 999);
 		add_action('wp_print_scripts', array(__CLASS__, 'register_scripts'), 999);
 		add_action('wp_footer', array(__CLASS__, 'enqueue_footer_scripts'));
 		add_action('wp_footer', array(__CLASS__, 'on_ready'), 999);
